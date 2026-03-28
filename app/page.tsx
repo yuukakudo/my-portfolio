@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     // overflow-x-hidden を追加して横揺れを防止
-    <main className="min-h-screen bg-white text-gray-800 font-sans overflow-x-hidden">
+    <main className="min-h-screen bg-white text-gray-800 font-sans overflow-x-hidden selection:bg-blue-100 touch-pan-y">
       
       {/* 1. 自己紹介セクション */}
       <section className="py-24 border-b border-gray-100">
