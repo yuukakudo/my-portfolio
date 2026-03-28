@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Home() {
   return (
     // 横揺れ防止とテキスト選択色の設定。touch-pan-yで自然なスクロールを維持。
@@ -8,8 +10,14 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-6 md:px-8 flex flex-col items-center md:items-start">
           <div className="flex flex-col md:flex-row items-center gap-6 md:gap-10 mb-10 md:mb-12 w-full justify-center md:justify-start">
             {/* スマホでアイコンを少し小さく */}
-            <div className="w-28 h-28 md:w-36 md:h-36 bg-gray-50 rounded-full flex items-center justify-center text-5xl md:text-7xl shadow-inner border border-gray-100 flex-shrink-0">
-              👤
+            <div className="w-28 h-28 md:w-36 md:h-36 bg-gray-50 rounded-full overflow-hidden shadow-inner border border-gray-100 flex-shrink-0 relative">
+              <Image 
+                src="/icon.png" // ← ここをpublicフォルダに置いたファイル名に変えてください（例: /icon.png）
+                alt="工藤 悠花 プロフィール"
+                fill // 親要素(div)のサイズいっぱいに広げる設定
+                className="object-cover" // 画像をトリミングして綺麗に収める設定
+                priority // ページ読み込み時に最優先で読み込む設定（FCP対策）
+              />
             </div>
             <div className="text-center md:text-left">
               {/* 名前と肩書きのサイズをスマホ用に微調整 */}
