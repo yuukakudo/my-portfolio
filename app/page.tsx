@@ -13,7 +13,7 @@ export default function Home() {
             <div className="w-28 h-28 md:w-36 md:h-36 bg-gray-50 rounded-full overflow-hidden shadow-inner border border-gray-100 flex-shrink-0 relative">
               <Image 
                 src="/icon.png" // ← ここをpublicフォルダに置いたファイル名に変えてください（例: /icon.png）
-                alt="工藤 悠花 プロフィール"
+                alt="ruika プロフィール"
                 fill // 親要素(div)のサイズいっぱいに広げる設定
                 className="object-cover" // 画像をトリミングして綺麗に収める設定
                 priority // ページ読み込み時に最優先で読み込む設定（FCP対策）
@@ -21,7 +21,7 @@ export default function Home() {
             </div>
             <div className="text-center md:text-left">
               {/* 名前と肩書きのサイズをスマホ用に微調整 */}
-              <h1 className="text-3xl md:text-5xl font-extrabold tracking-tight mb-3 text-gray-900">工藤 悠花</h1>
+              <h1 className="text-3xl md:text-5xl font-extrabold tracking-tight mb-3 text-gray-900">ruika</h1>
               <p className="text-xl md:text-2xl text-blue-500 font-bold">エンジニア歴：2年</p>
             </div>
           </div>
@@ -263,7 +263,7 @@ export default function Home() {
       </section>
       
       <footer className="py-10 md:py-12 bg-gray-900 text-gray-500 text-center text-sm md:text-base border-t border-gray-800">
-        &copy; 2026 yuuka_kudo. All rights reserved.
+        &copy; 2026 ruika. All rights reserved.
       </footer>
     </main>
   );

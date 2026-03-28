@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "工藤 悠花 | System Engineer Portfolio",
-  description: "システムエンジニア・工藤 悠花のポートフォリオサイト。",
+  title: "ruika | System Engineer Portfolio",
+  description: "システムエンジニア・ruikaのポートフォリオサイト。",
   icons: {
     icon: "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👤</text></svg>",
   },
