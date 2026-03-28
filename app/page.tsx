@@ -246,15 +246,15 @@ export default function Home() {
           </p>
           
           <div className="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-8">
-            <a href="https://x.com/あなたのID" target="_blank" rel="noopener noreferrer" 
+            <a href="https://x.com/ruika_contact" target="_blank" rel="noopener noreferrer" 
                className="w-full max-w-[280px] px-6 py-4 md:px-8 md:py-5 rounded-full bg-gray-900 text-white font-bold text-lg md:text-xl hover:bg-black hover:-translate-y-1 transition-all shadow-xl shadow-gray-100 flex items-center justify-center gap-3">
               <span>𝕏</span> X (Twitter)
             </a>
-            <a href="https://instagram.com/あなたのID" target="_blank" rel="noopener noreferrer" 
+            <a href="https://instagram.com/ruika_contact" target="_blank" rel="noopener noreferrer" 
                className="w-full max-w-[280px] px-6 py-4 md:px-8 md:py-5 rounded-full bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-600 text-white font-bold text-lg md:text-xl hover:opacity-90 hover:-translate-y-1 transition-all shadow-xl shadow-red-100 flex items-center justify-center gap-3">
               <span>📸</span> Instagram
             </a>
-            <a href="mailto:your-email@example.com" 
+            <a href="mailto:ruika.work.contact@gmail.com" 
                className="w-full max-w-[280px] px-6 py-4 md:px-8 md:py-5 rounded-full bg-white border-2 border-gray-200 text-gray-700 font-bold text-lg md:text-xl hover:bg-gray-50 hover:-translate-y-1 transition-all flex items-center justify-center gap-3">
               <span>✉️</span> Email
             </a>
